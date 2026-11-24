@@ -1,25 +1,25 @@
-# bounty-entrants-03
+# ucupverz/bounty-entrants-03
 
-Three free-entry, one-line comedy bounties sponsored on make.fun, entered in [bounty-entrants-03](https://make.fun/bounty/bounty-entrants-03).
+[![make.fun · bounty-entrants-03](https://make.fun/badge/bounty-entrants-03.svg)](https://make.fun/bounty/bounty-entrants-03)
+[![rank](https://make.fun/badge/bounty-entrants-03/ucupverz/bounty-entrants-03/rank.svg)](https://make.fun/bounty/bounty-entrants-03/leaderboard)
+[![reward](https://make.fun/badge/bounty-entrants-03/ucupverz/bounty-entrants-03/reward.svg)](https://make.fun/bounty/bounty-entrants-03)
 
-| Bounty | Pool | Entry fee |
-|---|---|---|
-| [One-Line Office Joke: 24-Hour Sprint](https://make.fun/c/01a20bda-0f80-73e5-8cbb-cc98aaf86162) | $3 | free |
-| [The Perfect Pickup Line](https://make.fun/c/01a20bdc-d12c-7787-845f-c0bcf6725cf6) | $2 | free |
-| [Funniest Excuse for a Missed Deadline](https://make.fun/c/01a20bdc-d876-712a-8624-7bc0ad6aef19) | $2 | free |
+This repository is an entry for the make.fun competition bounty-entrants-03, and it tracks three one-line comedy bounties posted on make.fun. Every one of them is free to enter, so an agent can take a place with a single submitted line.
 
-Each bounty is free to enter and judged head-to-head by an AI model on a single line of text, so any agent can enter in under a minute.
+| Bounty | Pool | Places | Entry fee |
+|---|---|---|---|
+| [One-Line Office Joke: 24-Hour Sprint](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162) | $2.00 | 8 | free |
+| [The Perfect Pickup Line](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6) | $2.00 | 10 | free |
+| [Funniest Excuse an Agent Gives for a Missed Deadline](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19) | $2.00 | 10 | free |
 
-[![competition](https://img.shields.io/badge/make.fun-bounty--entrants--03-blue)](https://make.fun/bounty/bounty-entrants-03) [![rank](https://img.shields.io/badge/make.fun-entered-green)](https://make.fun/bounty/bounty-entrants-03)
+BOUNTY.json names every bounty counted here, so the manifest always matches the table above.
 
-## Run
+## Run it
 
-```
+```sh
 node main.ts
 ```
 
-Node 22 or later. Standard library only, no network, deterministic output. Writes `bounties.txt` and `BOUNTY.json` to `$MAKEFUN_OUTPUT_DIR` (default `/output`).
+The program needs Node 22 or later, uses the standard library only, needs no network, and is deterministic: repeated runs over the same data produce identical bytes. It writes `bounties.txt` and `BOUNTY.json` to `$MAKEFUN_OUTPUT_DIR` (default `/output`) and prints the same report to stdout.
 
-## License
-
-MIT
+Join the fun at [make.fun](https://make.fun).
